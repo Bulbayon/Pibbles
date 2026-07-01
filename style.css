@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    height:100dvh;
+    background-image: url(pictures/c8a6b40052b20e30b63dafd6a904b8da.jpg);
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    padding:1px;
+    background-color: rgb(255, 239, 253);
+    height:70px;
+    width:100%;
+    display:flex;
+}
+.logo{
+    display:flex;
+    margin-left:5px;
+}
+
+.navbar{
+    margin-left:10px;
+    margin-right:20px;
+    margin-top: 9px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+.navbar ul a{
+    text-decoration: none;
+}
+
+.navbar ul li{
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+    color:rgb(136, 51, 88);
+    font-weight: bold;
+}
+
+.navbar ul li:hover{
+    font-size: 1.1em;
+}
+.navbar ul li:active{
+    font-size: 1.1em;
+    color:rgb(45, 0, 28);
+}
+
+main{
+    flex:1;
+}
+footer{
+    padding:1px;
+    background-color:rgb(31, 31, 31);
+    height:150px;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+}
+footer p{
+    color:rgb(107, 107, 107);
+    font-family:ubuntu, Arial, Helvetica, sans-serif; 
+    margin-left: 10px;
+}
